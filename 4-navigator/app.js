@@ -20,4 +20,4 @@ let coordinatesLong = (addressLong - positionLong)**2 ;
 
 let calculation = (coordinatesLat + coordinatesLong);
 
-console.log(`Расстояние от текущего месторасположения до назначения будет состовлять: ${Math.sqrt(calculation)}`);
+console.log(`Расстояние от текущего месторасположения до назначения будет равен: ${Math.sqrt(calculation)}`);
